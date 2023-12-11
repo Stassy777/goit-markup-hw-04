@@ -144,16 +144,25 @@ img {
   color: var(--OCEAN, #404bbf);
 }
 /* hero-title */
+
 .hero {
-  background: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office4.jpg);
+  max-width: 1440px;
+  height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
   margin-bottom: 0;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   color: var(--WHITE, #fff);
-  background: #2e2f42;
   font-size: 56px;
   line-height: 1.07;
   font-weight: 700;
